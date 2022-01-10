@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>TestServer</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+  <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+  </script>
+
+  <H1>ゴリランドAR</H1>
+    <model-viewer
+    ar
+    alt="gorilla"
+    src="./obj/211212_NewGorilland_basic_2.glb"
+    ios-src="./obj/211212_NewGorilland_basic_2.usdz"
+    style="width:400px;height:500px;"
+
+    background-color="#70BCD1"
+    shadow-intensity="0.7"
+    exposure = "20"
+    camera-controls
+    camera-orbit = "180deg 90deg 100%"
+    interaction-prompt="auto"
+    ar 
+    magic-leap>
+    </model-viewer>
+
+  </body>
+</html>
